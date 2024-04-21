@@ -32,7 +32,7 @@ int main()
 	float bulletFireTimer = 0.0;
 
 	sf::Clock deltaTimeClock;
-
+	//
 	for (i = 0; i < MAX; i++) {
 		float randomx = videoX - 100; 
 		float randomy = rand() % videoY;
